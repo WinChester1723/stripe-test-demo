@@ -109,7 +109,7 @@ namespace Web.Controllers
                 CancelUrl = domain + $"CheckOut/Login",
                 LineItems = new List<SessionLineItemOptions>(),
                 Mode = "payment",
-                CustomerEmail = "qordon23@gmail.com"
+                CustomerEmail = "test@mail.com"
             };
 
             foreach (var item in productList)
